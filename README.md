@@ -1,2 +1,3 @@
 # Masinsko-ucenje
- ML projekat
+ ML projekat 2023
+ Matija i Dejan
