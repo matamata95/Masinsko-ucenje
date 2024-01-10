@@ -1,0 +1,47 @@
+{
+    "featuresDict": {
+        "features": {
+            "date": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "query": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "sentiment": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "dtype": "int32",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "text": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user": {
+                "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            }
+        }
+    },
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+}

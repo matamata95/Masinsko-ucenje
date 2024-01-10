@@ -1,0 +1,33 @@
+{
+  "citation": "@article{go2009twitter,\n  title={Twitter sentiment classification using distant supervision},\n  author={Go, Alec and Bhayani, Richa and Huang, Lei},\n  journal={CS224N project report, Stanford},\n  volume={1},\n  number={12},\n  pages={2009},\n  year={2009}\n}",
+  "configDescription": "Sentiment140 consists of Twitter messages with emoticons, which are used as noisy labels for\nsentiment classification. For more detailed information please refer to the paper.\n",
+  "configName": "sentiment140",
+  "description": "Sentiment140 consists of Twitter messages with emoticons, which are used as noisy labels for\nsentiment classification. For more detailed information please refer to the paper.",
+  "disableShuffling": true,
+  "fileFormat": "tfrecord",
+  "moduleName": "tensorflow_datasets.core.dataset_builders.huggingface_dataset_builder",
+  "name": "sentiment140",
+  "redistributionInfo": {},
+  "splits": [
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "train",
+      "numBytes": "321450928",
+      "shardLengths": [
+        "400000",
+        "400000",
+        "400000",
+        "400000"
+      ]
+    },
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "test",
+      "numBytes": "103221",
+      "shardLengths": [
+        "498"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}
